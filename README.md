@@ -39,16 +39,18 @@ The case is designed to fit tightly around the PCB, supporting the keys and expo
 
 ## Bill of Materials (BOM)
 
-| Qty | Component               | Description                            | Part Number / Source       |
-|-----|--------------------------|----------------------------------------|-----------------------------|
-| 1   | Seeed XIAO RP2040        | Microcontroller board                  | [Link](https://www.seeedstudio.com/XIAO-RP2040-p-5026.html) |
-| 16  | Cherry MX Switch         | Mechanical keyboard switches           | Any MX-compatible supplier |
-| 16  | 1N4148 Diode             | For switch matrix                      | Standard diode              |
-| 16  | SK6812-E Mini            | Individually addressable RGB LED       | Digikey / AliExpress        |
-| 1   | Custom PCB               | Designed in KiCad                      | JLCPCB / OSHpark etc.       |
-| 1   | 3D-printed case          | PLA or PETG                           | Self-printed or online      |
-| 1   | USB-C cable              | For power and programming              | Standard USB-C              |
-| —   | Headers / Wires          | For connecting MCU                     | Female headers or soldered  |
+| Qty | Component                 | Description                            | Source |
+|-----|---------------------------|----------------------------------------|-----------------------------|
+| 1   | Seeed XIAO RP2040         | Microcontroller board                  | HC |
+| 16  | Cherry MX Switch          | Mechanical keyboard switches           | HC |
+| 16  | Blank DSA keycaps (White) | Keycaps for the switches               | HC |
+| 16  | 1N4148 Diode              | For switch matrix                      | HC |
+| 16  | SK6812-E Mini             | Individually addressable RGB LED       | JLCPCB |
+| 4   | M3x16mm screws            | For mounting the case                  | HC |
+| 4   | M3x5mx4mm heatset inserts | For mounting in case                   | HC |
+| 1   | Custom PCB                | Designed in KiCad                      | JLCPCB |
+| 1   | 3D-printed case           | PLA                                    | Self-printed |
+| 1   | USB-C cable               | For power and programming              | Standard USB-C |
 
 ---
 
